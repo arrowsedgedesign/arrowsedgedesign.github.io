@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Hello to my fellow developers! I assume that if you're reading this that you are using dev tools to inspect the code on my site. While you're here I hope you learn or find what you are looking for. I would like to take a second to thank some of my resources and point you in their direction. Happy coding!
+
+Awesome site to resize images ---- http://picresize.com/
+Great place for royalty free HD images ---- https://unsplash.com/
+Google fonts ---- https://fonts.google.com/#QuickUsePlace:quickUse
+Great repo of CSS animations ---- https://daneden.github.io/animate.css/
+
+-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arrow's Edge Design -Home</title>
+    <link rel='icon' href='images/logo.jpg'>
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' href="css/base-styles.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>
+
+
+    <!-- HTML for navbar -->
+    <nav class="navbar nav navbar-inverse navbar-static-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand logo-fit" href="index.html"><img id="logo-bar" src="images/new-logo-bar.png" alt="Arrow's Edge Logo"></a>
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+            </div>
+
+            <ul class="nav navbar-nav navbar-inverse navbar-right collapse navbar-collapse">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="our-services.html">Our Services</a></li>
+                <li><a href="#" data-toggle="dropdown">About Us<span class="caret"></span></a>
+                    <ul class="dropdown-menu inverse-dropdown">
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="our-work.html">Our Work</a></li>
+                        <li class="divider"></li>
+                        <li><a href="https://www.facebook.com/arrowsedgedesign/">Facebook</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- end of HTML for navbar -->
+    
+<div class="row">
+    <div class="hidden-xl hidden-lg hidden-md hidden-sm col-xs-8 col-sm-offset-4  col-xs-offset-2 text-center why-us-header"><p>Why Arrows Edge?</p>
+    </div>
+</div>
+    
+    <div class="col-xs-10 text-center col-xs-offset-1 hidden-sm hidden-md hidden-lg">
+         <div class="launch-xs">
+            <div class="custom-header"><i class="glyphicon glyphicon-home"></i><br>Local Service</div> <br>
+            <span class="my-text">Arrows Edge is a small web design and development company covering Stark County and northeastern Ohio. Working with Arrows Edge means that you are teaming up with a local designer and developer. This means better access and more personal service than working with a large or remote design company. We know you care about your brand and we want the world to know too. Large design firms often lose touch with the personal connections that are vital to creating sites that visitors relate to. Choosing to work with us means choosing a personal and close-to-home designer that will always put you first. </span>
+        </div>
+    </div>
+    
+    <div class="col-xs-10 text-center col-xs-offset-1 hidden-sm hidden-md hidden-lg  page-footer-spacing">
+         <div class="maintenance-xs">
+            <div class="custom-header"><i class="glyphicon glyphicon-time"></i><br>Convenience</div> <br>
+            <span class="my-text">It's the 21st century and there are plenty of ways to build your own website. So, why bother hiring a designer/developer? Along with having the technological expertise to make sure your website stands out from the thousands of "cookie cutter" sites, we understand that your time is precious. By choosing us to design and build your site you can spend time doing what you love or taking care of business while we make sure your online presence is top notch.</span>
+        </div>
+    </div>
+
+    <!-- HTML for carousel -->
+
+    <div id="carousel-homepage" class="carousel slide hidden-xs" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-homepage" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-homepage" data-slide-to="1"></li>
+            <li data-target="#carousel-homepage" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img class='test' src="images/forest-carosuel-image.jpg" alt="...">
+                <div class="carousel-caption">
+                    <p id="caption">Bringing you the best in custom, quality website design</p>
+                    <a href="our-services.html"><button class="btn">View Our Services</button></a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img class='test' src="images/boardwalk-carosuel-image.jpg" alt="...">
+                <div class="carousel-caption">
+                    <p id="caption">It’s nice to meet you! <br> <span id="caption-head">Get to know us:</span></p>
+                    <a href="our-work.html"><button class="btn">Our Work</button></a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img class='test' src="images/tracks-carosuel-image.jpg" alt="...">
+                <div class="carousel-caption">
+                    <p id="caption"><span id="caption-head">Like what you see?</span> <br> Get your idea online now</p>
+                    <a href="contact-us.html"><button class="btn btn-blue">Contact Us</button></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-homepage" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-homepage" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+
+    <!-- End of HTML for carousel -->
+
+
+
+    <footer>
+        <div class='img-wrap'><img src='images/new-logo.png' alt="Arrows Edge logo" class='footer-logo'>
+            <div class='clearfix'></div>
+        </div>
+
+        <div class='footer-call-to-action'>
+            <p class="footer-quote-head">Get in touch</p>
+            <br>
+            <p class="footer-quote-text">Ready to get started? Still not sure? Let us answer your questions<br><br><a href="contact-us.html"><button class="btn" id="footer-btn">Contact Us</button></a> </p>
+        </div>
+
+        <div class='footer-links'>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="our-services.html">Our Services</a></li>
+                <li><a href="our-work.html">Our Work</a>
+                    <li><a href="https://www.facebook.com/arrowsedgedesign/">Facebook</a></li>
+            </ul>
+        </div>
+        <div class='clearfix'></div>
+    </footer>
+
+    <!-- end of HTML for body of page -->
+
+
+</body>
+
+</html>
