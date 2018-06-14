@@ -1,0 +1,84 @@
+.navigation {
+    background-image: url(../images/pw_maze_black_@2X.png);
+    margin-bottom: 2%;
+}
+
+.hero {
+    width: 100%;
+    padding: 1%;
+}
+
+.logo-test {
+    width: 25%;
+    margin-left: 37.5%;
+}
+
+.links-area {
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    padding: 1% 0 1.5% 0;
+}
+
+.links-area > ul > li {
+    display: inline;
+    margin: 0 2.5% 0 2.5%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.option {
+    color: #A6A6A6;
+    font-size: 1.75vw;
+    transition: all .4s;
+}
+
+.option:hover {
+    text-decoration: none;
+    color: #e6e6e6;
+    background: rgba(166, 166, 166, 0.45);
+    padding: 1.5%;
+    border-radius: 3px;
+}
+
+.option:focus {
+    text-decoration: none;
+    color: #A6A6A6;
+    background: none;
+}
+
+.fb-logo {
+    width: 3%;
+}
+
+@media screen and (max-width: 500px) {
+    .logo-test {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+    
+    .links-area {
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+        padding: 1% 0 1.5% 0;
+    }
+    
+    .links-area > ul > li {
+        display: inline;
+        margin: 1% 4% 1% 4%;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .option {
+        color: #A6A6A6;
+        font-size: 5vw;
+        transition: all .4s;
+        line-height: 1.85em;
+    }
+    
+    .fb-logo {
+        width: 5%;
+    }
+
+}

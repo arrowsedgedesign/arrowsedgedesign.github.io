@@ -1,0 +1,1577 @@
+/********************************************************* 
+font-family: 'Quattrocento', serif;
+font-family: 'Oswald', sans-serif; 
+
+
+background: linear-gradient(30deg, #013A6B 50%, #004E95 50%);
+*********************************************************/
+/**************************** 
+Reset 
+***************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: antiquewhite;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    overflow-x: hidden;
+    min-height: 100%;
+}
+
+:focus {
+    outline: none;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    background-image: url(../images/grey-wash.png);
+    font-family: "bodoni mt condensed", serif;
+    color: white;
+    letter-spacing: .5px;
+    transition: all .4s;
+    font-size: 1.6vw;
+}
+
+
+.btn:hover {
+    background-image: url(../images/grey-wash-dark.jpg);
+    color: white;
+}
+
+.btn.btn-blue {
+    background-image: url(../images/blue-wash.png);
+    transition: all .4s;
+    font-family: "bodoni mt condensed", serif;
+    color: white;
+    letter-spacing: .5px;
+    transition: all .4s;
+    font-size: 1.6vw;
+}
+
+.btn.btn-blue:hover {
+    background-image: url(../images/blue-wash-dark.png);
+}
+
+.tab {
+    margin-left: 4%;
+}
+
+.margin-top {
+    margin-top: 2%;
+}
+
+.center {
+    text-align: center;
+}
+
+.page-footer-spacing {
+    margin-bottom: 5%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.large-header {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5vw;
+    margin-bottom: 1%;
+}
+
+.steroid {
+    font-size: 6vw;
+}
+
+.sub-header {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3vw;
+    margin-bottom: 1%;
+}
+
+.height-spacing {
+    line-height: 1.2em;
+}
+
+.home-header {
+    font-family: 'Oswald', sans-serif;
+    font-size: 8vw;
+    margin-bottom: 10%;
+    text-decoration: underline;
+}
+
+.my-text {
+    font-family: 'Quattrocento', serif;
+    font-size: 17px;
+    line-height: 1.75em;
+}
+
+.standard-text {
+    font-family: 'Quattrocento', serif;
+    font-size: 1.5vw;
+    line-height: 1.75em;
+}
+
+.oswald-text {
+    font-family: 'Oswald', serif;
+    font-size: 1.6vw;
+    letter-spacing: .5px;
+    line-height: 1.75em;
+}
+
+.list-text {
+    font-family: 'Quattrocento', serif;
+    font-size: 1.3vw;
+    line-height: 1.6em;
+}
+
+.list-text-bigger {
+    font-family: 'Quattrocento', serif;
+    font-size: 1.5vw;
+    line-height: 1.6em;
+}
+
+.section-text {
+    font-family: 'Quattrocento', serif;
+    font-size: 1.4vw;
+    line-height: 1.6em;
+}
+
+.section-text-bigger {
+    font-family: 'Quattrocento', serif;
+    font-size: 1.7vw;
+    line-height: 1.6em;
+}
+
+.services-header-text {
+    font-family: 'Quattrocento', serif;
+    font-size: 1.5vw;
+    line-height: 1.75em;
+}
+
+.control-label, input, textarea {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5vw;
+}
+
+/* Media Query to adjust height for all text fonts and sizes in mobile */
+@media screen and (max-width: 500px) {
+    .standard-text {
+        font-family: 'Quattrocento', serif;
+        font-size: 5.5vw;
+        line-height: 1.5em;
+    }
+    
+    .large-header {
+        font-family: 'Oswald', sans-serif;
+        font-size: 6.5vw;
+        margin-bottom: 1%;
+    }
+    
+    .sub-header {
+        font-family: 'Oswald', sans-serif;
+        font-size: 6vw;
+        margin-bottom: 1%;
+    }
+    
+    .steroid {
+        font-size: 8vw;
+    }
+    
+    .control-label, input, textarea {
+        font-family: "Oswald", sans-serif;
+        font-size: 4.5vw;
+    }
+}
+
+.link-reset {
+    color: black;
+}
+
+.link-reset:hover {
+    text-decoration: none;
+}
+
+.white {
+    color: #FDFDF0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bullet {
+    list-style: circle;
+    padding: 0 3% 0 5%;
+}
+
+.standout-background {
+    background: #f1c68e;
+}
+
+/***********************************************************
+End Reset
+***********************************************************/
+
+/***********************************************************
+Style for Navigation
+***********************************************************/
+.navigation {
+    background-image: url(../images/simple_dashed_@2X.png);
+    margin-bottom: 2%;
+}
+
+.hero {
+    width: 100%;
+    padding: 1%;
+}
+
+.logo-nav {
+    width: 25%;
+    margin-left: 37.5%;
+}
+
+.links-area {
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    padding: 1% 0 1.5% 0;
+}
+
+.links-area > ul > li {
+    display: inline;
+    margin: 0 2.5% 0 2.5%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.option {
+    color: #A6A6A6;
+    font-size: 1.75vw;
+    transition: all .4s;
+}
+
+.option:hover {
+    text-decoration: none;
+    color: #e6e6e6;
+    background: rgba(166, 166, 166, 0.45);
+    padding: 1.5%;
+    border-radius: 3px;
+    font-size: 1.8vw;
+}
+
+.option:focus {
+    text-decoration: none;
+    color: #A6A6A6;
+    background: none;
+}
+
+.option.active {
+    color: #e6e6e6;
+}
+
+.fb-logo {
+    width: 3%;
+}
+
+@media screen and (max-width: 500px) {
+    .logo-nav {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+    
+    .links-area {
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+        padding: 1% 0 1.5% 0;
+    }
+    
+    .links-area > ul > li {
+        display: inline;
+        margin: 1% 4% 1% 4%;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .option {
+        color: #A6A6A6;
+        font-size: 5vw;
+        transition: all .4s;
+        line-height: 1.85em;
+    }
+    
+    .fb-logo {
+        width: 5%;
+    }
+
+}
+
+/***********************************************************
+End Style for Navigation
+***********************************************************/
+
+
+/***********************************************************
+Style for Footer
+***********************************************************/
+
+footer {
+    background-image: url(../images/simple_dashed_@2X.png);
+    padding: 1%;
+    clear: both;
+}
+
+.footer-logo {
+    width: 100%;
+}
+
+.footer-call-to-action {
+    padding: 1% 0 0 4%;
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+.footer-call-to-action p {
+    color: #9d9d9d;
+    font-family: "Oswald", sans-serif;
+}
+
+.footer-quote-head {
+    font-size: 2.3em;
+}
+
+.footer-quote-text {
+    font-size: 1.4em;
+}
+
+#footer-btn {
+    font-size: 1.2em;
+    background-color: #0137A2;
+}
+
+.footer-links {
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin-top: 0;
+    letter-spacing: 1px;
+    font-size: 1.6em;
+}
+
+.footer-links a {
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    color: #9d9d9d;
+    text-align: center;
+    margin-left: 5%;
+
+}
+
+@media screen and (min-width: 1500px) {
+    .footer-links {
+        margin-top: 3%;
+    }
+}
+
+@media screen and (min-width: 1130px) {
+    .footer-links {
+        margin-top: 7%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    footer {
+        padding: 5%;
+    }
+    
+    .img-wrap {
+        display: none;
+    }
+    
+    .footer-call-to-action {
+        border: 0px;
+        margin-left: 0;
+        padding: 1% 0 0 4%;
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        line-height: 1.7em;
+    }
+    
+    .footer-links {
+        width: 100%;
+        margin-top: 8%;
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    .footer-links a {
+        line-height: 2em;
+    }
+    
+    .footer-links ul li {
+        font-size: 1.4em;
+    }
+    
+    #footer-btn {
+        font-size: 1em;
+        background-color: #0137A2;
+    }
+}
+
+
+/***********************************************************
+End Style for footer
+***********************************************************/
+
+
+/***********************************************************
+Style for Home Page
+***********************************************************/
+.navigation.home {
+    margin-bottom: 0;
+}
+
+.home-body {  
+    /*  background: linear-gradient(-165deg, #d38312, #a83279);*/
+    background: radial-gradient(rgb(211, 131, 18), rgb(168, 50, 121));
+    padding: 5% 0 8%;
+}
+
+/* Animation for yellow/pink section to slide in on page load */
+.home-body-static {
+    visibility: hidden;
+    opacity: 0;
+    animation: slideInLeft 1s forwards;
+}
+
+.glyphicon-arrow-down {
+    font-size: 3vw;
+    margin-top: 2%;
+}
+
+#computer-graphic, #graphic {
+    width: 30%;
+    margin-left: 5%;
+    float: left;
+}
+
+.homepage-info {
+    width: 55%;
+    margin: 3% 0 0 5%;
+    float: left; 
+}
+
+.offering-row {
+    padding: 1% 0 2%;
+}
+
+.square-button {
+    border: 2px solid black;
+    width: 20%;
+    background: black;
+    transition: all .4s;
+}
+
+.square-button:hover {
+    background: #333333;
+}
+
+#square-button:hover {
+    text-decoration: none;    
+}
+
+.oswald-text:hover {
+    text-decoration: none;
+}
+
+.last {
+    padding-bottom: 5%;
+}
+
+.ghost-image-appear {
+    display: none;
+}
+/***********************************************************
+Style for Video Home Page
+***********************************************************/
+.nav-homepage {
+    visibility: hidden;
+    opacity: 0;
+    animation: navigation 1s 31s forwards;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.placeholder {
+    margin-top: -19%;
+    color: antiquewhite;
+}
+
+.mobile-navigation {
+    display: none;
+}
+
+video {
+    width: 100%;
+}
+
+.video-logo {
+    width: 25%;
+    position: absolute;
+    top: 0;
+    margin: 1% 0 0 37.5%;
+}
+
+.first-words {
+    padding: 5%;
+    position: relative;
+    margin-top: -40%;
+    opacity: 0;
+    visibility: hidden;
+    animation: appear 2s 1s forwards,
+               disappear 1.5s 6s forwards;
+}
+
+.second-words {
+    padding: 5%;
+    position: relative;
+    margin-top: -22%;
+    opacity: 0;
+    visibility: hidden;
+    animation: appear 2s 7s forwards,
+               disappear 1.5s 13s forwards;
+}
+
+.third-words {
+    padding: 5%;
+    position: relative;
+    margin-top: -18%;
+    opacity: 0;
+    visibility: hidden;
+    animation: appear 2s 14s forwards,
+               disappear 1.5s 19s forwards;
+}
+
+.fourth-words {
+    padding: 5%;
+    position: relative;
+    margin-top: -16%;
+    opacity: 0;
+    visibility: hidden;
+    animation: appear 2s 20s forwards,
+               disappear 1.5s 26s forwards;
+}
+
+.fifth-words {
+    padding: 5%;
+    position: relative;
+    margin-top: -19%;
+    opacity: 0;
+    visibility: hidden;
+    animation: appear 2s 27s forwards;
+}
+
+.skip-button {
+    border: 2px solid white;
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+    margin: 0 0 2% 45%;
+    padding: .5%;
+    z-index: 999;
+    animation: vanish 2s 30s forwards;
+}
+
+@-moz-document url-prefix() { 
+.third-words {
+    margin-top: -24%;
+}
+
+.fourth-words {
+    margin-top: -23%;
+}
+
+.fifth-words {
+    margin-top: -26%;
+}
+
+.skip-button {
+    width: 15%;
+    margin-left: 42.5%;
+    margin-bottom: 5%;
+}
+
+.moz-home-body {
+    margin-top: -2%;
+}
+
+}
+
+.video-text {
+    font-family: "bodoni mt condensed";
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 5.5vw;
+    text-shadow: 3px 2px black;
+}
+
+.skip-text {
+    font-family: "bodoni mt condensed";
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 1.2vw;
+}
+
+.video-container {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    transform: translate(0);
+    animation: vanish 2s 30s forwards;
+}
+
+/* Transitions whole page to normal page w/o video */
+.skip-button:focus ~ .video-container {
+    animation: vanish 1s;
+}
+
+/* Hides the Content in yellow/pink section from the video */
+.after-vid {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-9999px);
+    animation: navigation 1s 31s forwards;
+}
+
+/* Hides scrollbar but remains scrollable */
+.landing {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+@media screen and (max-width: 1025px) {
+    #computer-graphic, #graphic {
+        width: 20%;
+        margin: 3% 0 0 5%;
+        float: left;
+    }
+    
+    .homepage-info {
+        width: 65%;
+        margin: 3% 0 0 5%;
+        float: left; 
+    }
+    
+    .placeholder {
+        display: none;
+    }
+    
+    .after-vid {
+        opacity: 1;
+        visibility: visible;
+        transform: translate(0);
+    }
+    
+    .skip-button {
+        display: none;
+    }
+    
+    .nav-homepage {
+        display: none;
+    }
+    
+    .mobile-navigation {
+        display: block;
+    }
+    
+    .video-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .glyphicon-arrow-down {
+        font-size: 5vw;
+        text-align: center;
+        margin-top: 2%;
+    }
+    
+    #computer-graphic, #graphic {
+        width: 25%;
+        margin: 0 0 0 37.5%;
+        float: left;
+    }
+    
+    .homepage-info {
+        width: 95%;
+        margin: 2.5% 0 0 2.5%;
+        float: left; 
+    }
+    
+    .homepage-info-header {
+        margin-left: 4%;
+    }
+    
+    .ghost-image {
+        display: none;
+    }
+    
+    .ghost-image-appear {
+        display: block;
+    }
+    
+    .square-button {
+        border: 2px solid black;
+        width: 50%;
+        margin-left: 22.5%;
+        background: black;
+        transition: all .4s;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .homepage-info-header {
+        margin-left: 0;
+    }
+}
+
+/***********************************************************
+End Style for Home Page
+***********************************************************/
+
+/***********************************************************
+Style for Our Services
+***********************************************************/
+
+.section-tab {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2%;
+    transition: all .4s;
+    background-image: url(../images/grey-wash.png);
+    margin: 1%;
+    margin-bottom: 2.5%;
+    cursor: pointer;
+}
+
+.section-tab-first {
+    margin-left: 4%;
+}
+
+.section-tab-text {
+    font-family: "bodoni mt condensed", serif;
+    font-size: 2.1vw;
+    color: white;
+}
+
+.section-tab:hover {
+    background-image: url(../images/grey-wash-dark.jpg);
+}
+
+.section-tab:focus {
+    font-family: "bodoni mt condensed", serif;
+    font-size: 2.45vw;
+    color: white;
+    background-image: url(../images/grey-wash-darkest.jpg);
+    padding: 2%;
+    border: 0;
+    width: 15%;
+}
+
+.our-services-intro {
+    padding: 0 3%;
+}
+
+.growth-animation {
+    margin-left: -3%;
+}
+
+.section {
+    background-image: url(../images/pw_maze_black_@2X.png);
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    padding: 2%;
+    margin-bottom: 2.5%;
+    border-radius: 10px;
+    box-shadow: 30px 20px 20px 0px rgba(0, 0, 0, 0.8);
+    transform: translate(-9999px);
+}
+
+.content-writing-section {
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.8);
+}
+
+.maintenance-section, .snapchat-filters-section {
+    box-shadow: -30px 20px 20px 0px rgba(0, 0, 0, 0.8);
+}
+
+.web-design-tab {
+    visibility: hidden;
+    opacity: 0;
+    animation: slideInUp .7s forwards;
+}
+
+.web-design-tab:focus ~ .web-design-section {
+    animation: rotateInDownLeft .9s forwards;
+    position: relative;
+}
+
+.logo-design-tab {
+    visibility: hidden;
+    opacity: 0;
+    animation: slideInUp .7s .1s forwards;
+}
+
+.logo-design-tab:focus ~ .logo-design-section {
+    animation: rotateInDownLeft .9s forwards;
+    position: relative;
+}
+
+.content-writing-tab {
+    visibility: hidden;
+    opacity: 0;
+    animation: slideInUp .7s .2s forwards;
+}
+
+.content-writing-tab:focus ~ .content-writing-section {
+    animation: flipInX .9s forwards;
+    backface-visibility: visible !important;
+    position: relative;
+}
+
+.snapchat-filters-tab {
+    visibility: hidden;
+    opacity: 0;
+    animation: slideInUp .7s .3s forwards;
+}
+
+.snapchat-filters-tab:focus ~ .snapchat-filters-section {
+    animation: rotateInDownRight .9s forwards;
+    position: relative;
+}
+
+.maintenance-tab {
+    visibility: hidden;
+    opacity: 0;
+    animation: slideInUp .7s .4s forwards;
+}
+
+.maintenance-tab:focus ~ .maintenance-section {
+    animation: rotateInDownRight .9s forwards;
+    position: relative;
+}
+
+.our-services-intro {
+    visibility: hidden;
+    opacity: 0;
+    animation: slideInUp .7s .5s forwards;
+}
+
+.web-design-section-list-container {
+    width: 23%;
+    margin-left: 1%;
+    border: 1px dashed white;
+    padding: 1% 2% 1% 3%;
+    float: left;
+}
+
+.web-design-section-list {
+    list-style: circle;
+}
+
+.web-design-section-details {
+    width: 60%;
+    padding: 0 2%;
+    float: left;
+}
+
+.section-cta {
+    float: left;
+    width: 16%;
+    margin-top: 16.5%;
+    display: inline;
+}
+
+#section-btn {
+    margin: 4% 0 0 20%;
+}
+
+.pencils {
+    border-radius: 50%;
+    margin-top: 17%;
+}
+
+.logo-design-section-container {
+    width: 40%;
+    margin-left: 1%;
+    margin-top: 1%;
+    float: left;
+}
+
+.logo-design-mods {
+    padding: 2%;
+    margin-top: 1%;
+}
+
+.logo-new-list {
+    list-style: circle;
+    padding-left: 20%;
+}
+
+.writing {
+    padding-top: .5%;
+    display: inline;
+    float: left;
+}
+
+.content-writing-container {
+    width: 80%;
+    padding: 0 2%;
+    float: left;
+}
+
+.section-cta-content {
+    float: left;
+    width: 16%;
+}
+
+#section-btn-writing {
+    margin: 2% 0 0 20%;
+}
+
+.content-writing-list {
+    list-style: circle;
+    padding-left: 5%;
+}
+
+.snapchat-welcome {
+    margin-bottom: 1%;
+}
+
+.maintenance-info {
+    margin: 1% 3% 1% 3%;
+}
+
+.a-la-carte {
+    margin-bottom: 5%;
+}
+
+.headline {
+    margin: 2% 0;
+}
+
+.a-la-carte-option {
+    width: 32%;
+    margin-left: 1%;
+    float: left;
+    padding: 0 2%;
+}
+
+.a-la-carte-option-top {
+    margin-bottom: 5%;
+}
+
+.major-update {
+    border-left: 1px dashed white;
+    border-right: 1px dashed white;
+    padding: 0 1%;
+}
+
+.packages-option {
+    width: 27%;
+    margin-left: 1%;
+    float: left;
+    padding: 0 2%;
+}
+
+.annual-option {
+    width: 42%;
+    background: grey;
+    margin-left: 1%;
+    float: left;
+    padding: 0 2%;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .section-tab {
+        margin-left: 4%;
+        border: 0px;
+    }
+    
+    .section-tab-first {
+        margin-left: 6%;
+    }
+    
+    .section-tab:focus {
+        width: 25%;
+    }
+    
+    .snapchat-filters-tab {
+        margin-left: 21%;
+    }
+    
+    .web-design-tab:focus ~ .snapchat-filters-tab {
+        margin-left: -10%;
+    }
+    
+    .section {
+        box-shadow: 15px 10px 20px 0px rgba(0, 0, 0, 0.8);
+        margin-bottom: 4%;
+    }
+
+    .content-writing-section {
+        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.8);
+    }
+
+    .maintenance-section, .snapchat-filters-section {
+        box-shadow: -15px 10px 20px 0px rgba(0, 0, 0, 0.8);
+    }
+    
+    .web-design-section-list-container {
+        width: 25%;
+        margin-left: 1%;
+    }
+    
+    .web-design-section-details {
+        width: 74%;
+        padding: 0 2%;
+        float: left;
+    }
+    
+    .section-cta {
+        width: 90%;
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+    
+    #section-btn {
+        margin-left: 43%;
+    }
+    
+    .pencils {
+        border-radius: 50%;
+        margin: 2% 0 0 33%;
+    }
+
+    .logo-design-section-container {
+        border: 1px solid white;
+        width: 80%;
+        margin: 1% 0 0 10%;
+        float: left;
+    }
+    
+    #section-btn-writing {
+        margin-left: 15%;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    #section-btn-writing {
+        margin-left: 7%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .section {
+      margin-bottom: 10%;  
+    }
+    
+    .standard-text {
+        font-size: 5.5vw;
+        padding: 0 4%;
+    }
+    
+    .large-header {
+        font-size: 7vw;
+        margin-bottom: 2%;
+    }
+    
+    .section-tab-text {
+        font-size: 3.5vw;
+    }
+    
+    .section-tab-text:focus {
+        font-size: 4.5vw;
+    }
+    
+    .services-header-text {
+        font-family: 'Quattrocento', serif;
+        font-size: 6vw;
+        line-height: 1.75em;
+        border: 0;
+    }
+    
+    .section-text {
+        font-size: 5.5vw;
+    }
+    
+    .section-text-bigger {
+        font-size: 5.75vw;
+    }
+    
+    .list-text {
+        font-size: 4.5vw;
+        padding-left: 15%;
+    }
+    
+    .list-text-bigger {
+        font-size: 5vw;
+        padding-left: 16%;
+    }
+    
+    .oswald-text {
+        font-size: 5.5vw;
+    }
+    
+    .btn.btn-blue {
+        font-size: 5vw;
+    }
+    
+    #section-btn {
+        margin: 4% 0 0 30%;
+    }
+    
+    .web-design-section-list-container {
+        width: 80%;
+        margin-left: 10%;
+        border: 1px dashed white;
+        padding: 1% 2% 1% 3%;
+        float: left;
+    }
+
+    .web-design-section-list {
+        list-style: circle;
+    }
+
+    .web-design-section-details {
+        width: 98%;
+        margin: 0 1% 5% 1%;
+        padding: 0 2%;
+        float: left;
+    }
+    
+    .logo-design-section-container {
+        width: 100%;
+        margin: 2% 0;
+    }
+
+    .logo-design-mods {
+        padding: 2%;
+        margin-top: 1%;
+    }
+    
+    .content-writing-container {
+        width: 100%;
+    }
+    
+    .section-cta-content {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    #section-btn-writing {
+        margin: 2% 0 0 30%;
+    }
+    
+    .a-la-carte-option {
+        width: 95%;
+        margin: 4% 0 4% 5%;
+    }
+
+    .major-update {
+        border: 0;
+        background: grey;
+        border-radius: 5px;
+        margin: 4% 0 4% 3% !important;
+    }
+
+    .packages-option {
+        width: 95%;
+        margin: 4% 0 4% 5%;
+    }
+
+    .annual-option {
+        width: 95%;
+        margin: 4% 0 4% 3%;
+    }
+
+}
+
+/***********************************************************
+End Style for Our Services
+***********************************************************/
+
+/***********************************************************
+Style for Blog
+***********************************************************/
+
+.container {
+    margin-top: 30px;
+}
+
+.feature-header {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.feature-header-name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    padding-bottom: 5px;
+    color: gray;
+}
+
+.feature-image {
+    padding-left: 17%;
+}
+
+.feature-text {
+    font-family: 'Quattrocento', serif;
+    font-size: 17px;
+}
+
+.side-image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about-the-author {
+    margin-top: 50px;
+}
+
+.more-articles {
+    margin-top: 35px;
+}
+
+.first-more {
+    margin-left: -40px;
+}
+
+/***********************************************************
+Style for Contact Us Page
+***********************************************************/
+
+.container-form {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.photo-head {
+    font-family: 'Oswald', sans-serif;
+    font-size: 8vw;
+    text-align: center;
+}
+
+#thumb {
+    overflow: hidden;
+}
+
+.form-intro {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.75em;
+    margin-bottom: 2%;
+}
+
+.recaptcha {
+    margin-bottom: 2%;
+}
+
+.failure {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.75em;
+    color: red;
+}
+
+.success {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.75em;
+    color: green;
+}
+
+
+/***********************************************************
+End Style for Contact Us Page
+***********************************************************/
+
+
+/***********************************************************
+Style for Our Work Page
+***********************************************************/
+.two-item-buffer-box {
+    margin-bottom: 5%;
+}
+
+.gallery-window {
+    float: left;
+    width: 45%;
+    margin: 0 0 0 3.333333%;
+    background-image: url(../images/pyramid.png);
+    box-shadow: 0 0 15px 7px rgba(0, 0, 0, 0.6);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.gallery-img-container {
+    width: 48%; 
+    margin: 1% 0 2% 26%;
+}
+
+.gallery-website-container {
+    width: 90%;
+    margin: 0 0 2% 5%;
+}
+
+.gallery-img {
+    width: 100%;
+}
+
+.gallery-text {
+    width: 90%;
+    margin: 0 0 2% 5%;
+}
+
+.gallery-item-first {
+    animation: slideInUp 1s forwards;
+}
+
+.gallery-item-second {
+    animation: slideInUp 1s .2s forwards;
+}
+
+@media screen and (max-width: 800px) {
+    .two-item-buffer-box {
+        margin-bottom: 0;
+    }
+    
+    .gallery-window {
+        float: left;
+        width: 95%;
+        margin: 0 0 5% 2.5%;
+    }
+
+}
+
+/***********************************************************
+End Style for Our Work Page
+***********************************************************/
+
+/***********************************************************
+Animations
+***********************************************************/
+@keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@keyframes rotateInDownLeft {
+  from {
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  to {
+    transform-origin: left bottom;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0);
+  }
+}
+
+@keyframes flipInX {
+  from {
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  40% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  to {
+    transform: perspective(400px);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes rotateInDownRight {
+  from {
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  to {
+    transform-origin: right bottom;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        transform: scale3d(.1, .1, .1) translate3d(0, 1000px, 0);
+        animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    }
+    60% {
+        transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0);
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    }
+    90% {
+        opacity: .8;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@keyframes disappear {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+    40% {
+        transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0);
+        animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    }
+    90% {
+        opacity: .2;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+        transform: scale3d(.1, .1, .1) translate3d(0, 2000px, 0);
+        transform-origin: center bottom;
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    }
+}
+
+@keyframes vanish {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translate(-9999px;)
+    }
+}
+
+@keyframes navigation {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+        transform: translate(0);
+    }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+    opacity: 1;
+  }
+}
